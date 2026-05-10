@@ -76,6 +76,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "description", content: "ANORMOUS WARP: a futuristic browser-based toolbox of media, Minecraft, developer, gaming and creator tools." },
       { name: "theme-color", content: "#000000" },
       { property: "og:type", content: "website" },
+      { property: "og:title", content: "ANORMOUS WARP — Futuristic Toolbox OS" },
+      { name: "twitter:title", content: "ANORMOUS WARP — Futuristic Toolbox OS" },
+      { property: "og:description", content: "ANORMOUS WARP: a futuristic browser-based toolbox of media, Minecraft, developer, gaming and creator tools." },
+      { name: "twitter:description", content: "ANORMOUS WARP: a futuristic browser-based toolbox of media, Minecraft, developer, gaming and creator tools." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/7f7c3d52-9272-4ef4-a6eb-04e62f6bab9c" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/7f7c3d52-9272-4ef4-a6eb-04e62f6bab9c" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
