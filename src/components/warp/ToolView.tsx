@@ -157,7 +157,7 @@ function ImageCompressTool() {
     {out && <>
       <img src={out.url} alt="" className="rounded-lg max-h-64 mx-auto" />
       <div className="text-sm text-white/70">Size: {(out.size / 1024).toFixed(1)} KB</div>
-      <Btn onClick={() => downloadBlob(new Blob([]), "compressed.jpg") || (window.location.href = out.url)}>Download</Btn>
+      <a href={out.url} download="compressed.jpg"><Btn>Download</Btn></a>
     </>}
   </Section>;
 }
